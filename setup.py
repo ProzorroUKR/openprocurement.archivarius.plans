@@ -12,7 +12,6 @@ requires = [
 ]
 api_requires = [
     'openprocurement.api',
-    'openprocurement.planning.api',
 ]
 test_requires = requires + api_requires + [
     'webtest',
